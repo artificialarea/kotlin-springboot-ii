@@ -1,6 +1,6 @@
 package org.example.com.kotlinplaygroundalt.basics
 
-fun main(args: Array<String>) {
+fun main() {
     var name = "Alex"
     name = "Chloe"
 
@@ -40,7 +40,7 @@ fun main(args: Array<String>) {
 
     println(medal)
 
-    // v2: linter refactor from 'if' to 'when'
+    // v2: linter refactor from 'if' to 'when' (introduced in Kotlin)
     // akin to a switch case
     val medalAlt = when (position) {
         1 -> {
