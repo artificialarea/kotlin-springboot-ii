@@ -1,6 +1,6 @@
 // ISSUE: Sometimes Can't run build via (either) package
 // 1. Play/Run button: "Nothing here" (eventually the Run functionality may return, tho)
-// 2. else Re-run via Run console: "Error..."
+// 2. else Re-run via Run console: "Error running 'LabelsAndReturnKt'"
 // 3. else Build Output "Conflicting overloads..." (because I had the same "exploreWhile()" fun in two files, since renamed)
 package org.example.com.kotlinplaygroundalt.basics
 // package com.kotlinplaygroundalt.basics
